@@ -1,5 +1,20 @@
+# Code
 
+## Intersection of two strings
+def intersection(foo: str, bar: str) -> str | None:
+    
+## Alphabetical assessment
+def is_alphabetical(string: str)-> bool:
 
+## Letters only
+def letters_only(string: str) -> str | None:
+
+## Palindrome generator
+def generate_palindrome(string: str) -> str | None:
+
+## Palindrome detector
+def is_palindrome(string: str) -> bool:
+    
 #--------------------------------------------------------------------------------#
 # ⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎  WRITE YOUR CODE ABOVE THIS  LINE ⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎
 
