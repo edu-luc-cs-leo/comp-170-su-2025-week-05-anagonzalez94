@@ -2,7 +2,15 @@
 
 ## Intersection of two strings
 def intersection(foo: str, bar: str) -> str | None:
-    
+    # Empty string to add our resulting characters into
+    common_ch = ""
+    # Check if characters in first string appear in the second string
+    for ch in foo:
+        if ch in bar and not ch in common_ch: # Make sure there are no duplicate characters
+            # Concatenate characters found to be in common to the empty string
+            common_ch += ch
+    return common_ch
+
 ## Alphabetical assessment
 def is_alphabetical(string: str)-> bool:
 
